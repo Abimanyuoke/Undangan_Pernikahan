@@ -23,13 +23,13 @@ body {
 
 .hero {
     min-height: 100vh;
-   
     position: relative;
 }
 
 .hero h1{
     font-family: "Sacramento", cursive;;
     font-size: 6rem;
+    color: white;
 }
 
 .hero p {
@@ -41,11 +41,11 @@ body {
 }
 
 .hero a {
-    color: var(--pink);
-    background-color: white;
+    color: white;
+    background-color: var(--pink);
 }
 
 .hero a:hover {
-    background-color: var(--pink);
-    color: white;
+    background-color: white;
+    color: var(--pink);
 }

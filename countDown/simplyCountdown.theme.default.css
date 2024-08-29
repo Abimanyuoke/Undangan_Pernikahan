@@ -8,7 +8,7 @@
 .simply-countdown > .simply-section {
   width: 50px;
   height: 50px;
-  padding: 70px;
+  padding: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,7 +17,6 @@
   background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   border-radius: 50%;
-
 }
 
 .simply-countdown > .simply-section .simply-amount,
@@ -30,6 +29,44 @@
 .simply-countdown > .simply-section .simply-amount {
   font-size: 2.6rem;
   color: var(--pink);
+}
+
+/* Media Query */
+
+
+/* Laptop */
+@media (max-width: 992px) {
+  body {
+      font-size: 75%;
+  }
+
+  .simply-countdown > .simply-section {
+      padding: 70px;
+  }
+}
+
+/* tablet */
+@media (max-width: 768px) {
+  html {
+      font-size: 65%;
+  }
+
+  .simply-countdown > .simply-section {
+      padding: 60px;
+      margin: 5px;
+  }
+}
+
+/* mobile apss */
+@media (max-width: 576px) {
+  html {
+      font-size: 55%;
+  }
+
+  .simply-countdown > .simply-section {
+      padding: 35px;
+      margin: 3px;
+  }
 }
 
 

@@ -52,3 +52,19 @@ body {
     background-color: white;
     color: var(--pink);
 }
+
+.mynavbar {
+}
+
+
+.mynavbar .navbar-brand, 
+.mynavbar .offcanvas-title {
+    font-family: 'Sacramento', cursive;
+    font-size: 3.2rem;
+}
+
+.mynavbar .nav-link {
+    text-transform: uppercase;
+}
+
+

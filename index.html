@@ -188,6 +188,21 @@
             },
         })
     </script>
+
+    <script>
+      const hamburger = document.querySelector('.navbar-togler');
+      const stickyTop = document.querySelector('.stiky-top');
+      const btnclose = document.querySelector('.btn-close');
+
+      hamburger.addEventListener('click', function() {
+        stickyTop.style.overflow = 'visible';
+      });
+
+
+      btnclose.addEventListener('click', function() {
+        btnclose.style.overflow = 'hidden';
+      });
+    </script>
     
 
   </body>

@@ -172,6 +172,8 @@ body {
     font-weight: 300;
 }
 
+
+
 /* Extra Light */
 @media only screen and (max-width: 1200px) {
     .home .heart {
@@ -182,6 +184,12 @@ body {
 @media only screen and (max-width: 992px) {
     .home .heart {
        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .stiky-top {
+        overflow: hidden;
     }
 }
 

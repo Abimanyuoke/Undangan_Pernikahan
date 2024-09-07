@@ -190,17 +190,16 @@
     </script>
 
     <script>
-      const hamburger = document.querySelector('.navbar-togler');
-      const stickyTop = document.querySelector('.stiky-top');
-      const btnclose = document.querySelector('.btn-close');
+      const stickyTop = document.querySelector('.sticky-top');
+      const offcanvas = document.querySelector('.offcanvas');
 
-      hamburger.addEventListener('click', function() {
+      offcanvas.addEventListener('show.bs.offcanvas', function() {
         stickyTop.style.overflow = 'visible';
       });
 
 
-      btnclose.addEventListener('click', function() {
-        btnclose.style.overflow = 'hidden';
+      offcanvas.addEventListener('hidden.bs.offcanvas', function() {
+        stickyTop.style.overflow = 'hidden';
       });
     </script>
     

@@ -349,14 +349,10 @@ footer li {
     list-style: none;
     display: inline;
     margin: 0.5rem;
-    border: 1px solid black;
     padding: 9px;
-    border-radius: 50%;
 }
 
-footer li:hover {
-    border: 1px solid white;
-}
+
 
 /* Extra Light */
 @media only screen and (max-width: 1200px) {
